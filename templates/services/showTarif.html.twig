@@ -1,11 +1,13 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello ServicesController!{% endblock %}
+{% block title  "Services : " ~ slug | upper %}
 
 {% block body %}
-<div class="example-wrapper">
-    <h1>page Tarifaire - Zoo Arcadia</h1>
+<div class="container">
+    <h1>Page Tarifaire - Zoo Arcadia</h1>
 
+    <p>Bienvenu sur la page des différents tarifs proposé par le zoo Arcadia. Vous trouverez ci-dessous,
+     toutes les informations concernant nos différents tarifs et ses modalités.</p>
 
 </div>
 {% endblock %}
